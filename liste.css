@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: hsl(0, 0%, 96%);
+    display: flex;
+    justify-content: center;
+}
+
+.hidden{
+    display: none !important;
+}
+
+main{
+    width: 50%;
+    height:auto;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 70px 15px 70px 15px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.719);
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    margin-bottom: 15px;
+}
+input{
+    width: 65%;
+    height: 40px;
+    outline:none ;
+    margin-bottom: 20px;
+}
+button{
+    width: 15%;
+    height: 43.5px;
+    font-weight: 800;
+    font-size: 19px;
+    background-color:rgba(0, 0, 255, 0.74);
+    border-width: 0px;
+    color:wheat;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.tachesdiv{
+    width: 100%;
+    height:auto;
+}
+.taic{
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+.tache{
+    width: 62%;
+    height: auto;
+    margin-left: 11%;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.637);
+    padding: 6px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}.icon{
+    width: 12%;
+    height: inherit;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.637);
+    margin-bottom: 15px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.w-6{
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+}
+.sup{
+    color:red;
+    float:right;
+}
+.edit{
+    color: green;
+    float: left;
+}
+
+.notif{
+    width: 60%;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border-radius:8px;
+    margin-left: 20%;
+    margin-top: 15px;
+}  
+
+.clear{
+    width: 40%;
+    text-align: center;
+    height: 23px;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    background-color:inherit;
+    margin-left: 30%;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
