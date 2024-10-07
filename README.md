@@ -52,4 +52,3 @@ To run this project locally:
 
 - Add new tasks by typing in the input field and pressing the "Add" button.
 - Mark tasks as complete by clicking on them.
-- Edit or
